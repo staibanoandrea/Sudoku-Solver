@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="500.0" minWidth="450.0" prefHeight="500.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudokusolver.SudokuFXMLController">
+    <children>
+        <GridPane fx:id="grid" alignment="TOP_CENTER" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+        </GridPane>
+      <Button fx:id="solveButton" layoutX="189.0" layoutY="471.0" mnemonicParsing="false" text="Solve it!" />
+      <Label fx:id="sudokuStatus" layoutX="113.0" layoutY="450.0" text="The sudoku isn't correct. It can't be solved." textFill="TRANSPARENT">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+    </children>
+</Pane>
